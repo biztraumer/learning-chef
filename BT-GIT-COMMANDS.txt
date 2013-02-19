@@ -1,0 +1,10 @@
+# Adding files/folders to GITHUB from localmachine to github repository...
+
+cd /root/CHEF/chef-repo/
+git init
+ls
+git add *
+git commit -m "learning chef repo"
+git remote add origin https://github.com/biztraumer/learning-chef.git
+git push origin master
+
